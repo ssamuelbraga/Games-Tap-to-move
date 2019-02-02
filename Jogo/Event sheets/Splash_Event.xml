@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Splash_Event</name>
+    <events>
+        <comment>Inicia splash, espera 3s e inicia</comment>
+        <event-block sid="540519956370007">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="585253218032834" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="845153462929873" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="797519367281256" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

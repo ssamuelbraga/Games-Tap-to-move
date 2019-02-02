@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Tap to Scape</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email>contact@backgroundstudio.cc</author-email>
+    <author-website>http://www.backgroundstudio.cc</author-website>
+    <app-id>cc.backgroundstudio.taptoscape</app-id>
+    <unique-id>1j04l3h9uhk3q</unique-id>
+    <saved-with-version>25500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>720</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="LogoBackground" sid="845168467918295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539330450372901" speed="5">
+                    <frame duration="1" hotspotX="0.500168" hotspotY="0.500279" original-source="C:\Users\User\Desktop\EMPRESA\ID EMPRESA\Logo Background.png">
+                        <collision-poly>
+                            <point x="0.344874" y="0.572864" />
+                            <point x="0.499832" y="0.0686767" />
+                            <point x="0.645378" y="0.589056" />
+                            <point x="0.536807" y="0.499721" />
+                            <point x="0.807395" y="0.680067" />
+                            <point x="0.499832" y="0.599665" />
+                            <point x="0.192605" y="0.680067" />
+                            <point x="0.416807" y="0.499721" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="preto" sid="210001225818652">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415535066948929" speed="5">
+                    <frame duration="1" hotspotX="0.500611" hotspotY="0.5" original-source="C:\Users\User\Desktop\preto.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fundo" sid="527221668091027">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398907051238498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\ID\Fundo01.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="games_logo" sid="512376515081117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="627880830083001" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\ID\games_logo.png">
+                        <collision-poly>
+                            <point x="0.547222" y="0.547222" />
+                            <point x="0.821296" y="0.5" />
+                            <point x="0.562963" y="0.562963" />
+                            <point x="0.552778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quadriculado" sid="865050175762221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213350125403361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\ID\quadriculado.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Collision" sid="481017412725760">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="838628815314036">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="636902792764098" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="869681878893644">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="730748904769556">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Walking" pingpong="0" repeatcount="1" repeatto="0" sid="153069284687351" speed="5">
+                    <frame duration="1" hotspotX="0.55814" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.924419" y="0.175676" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.552941" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.924419" y="0.175676" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.55814" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.924419" y="0.175676" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.552941" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.924419" y="0.175676" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.555556" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.891085" y="0.189189" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.554217" hotspotY="0.972973">
+                        <collision-poly>
+                            <point x="0.0697674" y="0.375" />
+                            <point x="0.267442" y="0.0912162" />
+                            <point x="0.656977" y="0.027027" />
+                            <point x="0.948515" y="0.182432" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="226037160706193">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Limit" sid="438314908592168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="362379000923730" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inimigo" sid="457075077249308">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="146077190055199">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="WalkingInimigo" pingpong="0" repeatcount="1" repeatto="0" sid="394626791623366" speed="5">
+                    <frame duration="1" hotspotX="0.38961" hotspotY="0.988889">
+                        <collision-poly>
+                            <point x="0.123377" y="0.5" />
+                            <point x="0.321429" y="0.238889" />
+                            <point x="0.461039" y="0.0611111" />
+                            <point x="0.743506" y="0.0555556" />
+                            <point x="0.922078" y="0.166667" />
+                            <point x="0.863636" y="0.538888" />
+                            <point x="0.775974" y="0.883333" />
+                            <point x="0.61039" y="0.988889" />
+                            <point x="0.0454545" y="0.994444" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.395349" hotspotY="0.988889">
+                        <collision-poly>
+                            <point x="0.123377" y="0.5" />
+                            <point x="0.321429" y="0.238889" />
+                            <point x="0.461039" y="0.0611111" />
+                            <point x="0.743506" y="0.0555556" />
+                            <point x="0.922078" y="0.166667" />
+                            <point x="0.863636" y="0.538888" />
+                            <point x="0.775974" y="0.883333" />
+                            <point x="0.61039" y="0.988889" />
+                            <point x="0.0454545" y="0.994444" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.38961" hotspotY="0.988889">
+                        <collision-poly>
+                            <point x="0.123377" y="0.5" />
+                            <point x="0.321429" y="0.238889" />
+                            <point x="0.461039" y="0.0611111" />
+                            <point x="0.743506" y="0.0555556" />
+                            <point x="0.922078" y="0.166667" />
+                            <point x="0.863636" y="0.538888" />
+                            <point x="0.775974" y="0.883333" />
+                            <point x="0.61039" y="0.988889" />
+                            <point x="0.0454545" y="0.994444" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.395349" hotspotY="0.988889">
+                        <collision-poly>
+                            <point x="0.123377" y="0.5" />
+                            <point x="0.321429" y="0.238889" />
+                            <point x="0.461039" y="0.0611111" />
+                            <point x="0.743506" y="0.0555556" />
+                            <point x="0.951148" y="0.166667" />
+                            <point x="0.863636" y="0.538888" />
+                            <point x="0.775974" y="0.883333" />
+                            <point x="0.61039" y="0.988889" />
+                            <point x="0.0454545" y="0.994444" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Score_text" sid="967123714314259">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\sprite-font-white.png" />
+        </object-type>
+        <object-type name="Site" sid="126074567788123">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Games" sid="396278987112886">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Message" sid="775487458718034">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="539066279200552">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\grass-middle.png" />
+        </object-type>
+        <object-type name="Chao_complemento" sid="268592200135110">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Background" sid="759800884473651">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Audio" sid="483243857619230">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="volume" sid="781438436426849">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="984406991594137" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\gui-sound-white.png">
+                        <collision-poly>
+                            <point x="0.395833" y="0.395833" />
+                            <point x="0.5" y="0.291667" />
+                            <point x="0.583333" y="0.416667" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.666667" y="0.666667" />
+                            <point x="0.5" y="0.729167" />
+                            <point x="0.395833" y="0.604167" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\gui-no-sound-white.png">
+                        <collision-poly>
+                            <point x="0.395833" y="0.395833" />
+                            <point x="0.5" y="0.291667" />
+                            <point x="0.583333" y="0.416667" />
+                            <point x="0.604167" y="0.5" />
+                            <point x="0.583333" y="0.583333" />
+                            <point x="0.5" y="0.729167" />
+                            <point x="0.395833" y="0.604167" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pause" sid="597297460195372">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="965436788280226" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\gui-pause-white.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.75" y="0.75" />
+                            <point x="0.25" y="0.75" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\gui-play-white.png">
+                        <collision-poly>
+                            <point x="0.354167" y="0.354167" />
+                            <point x="0.5" y="0.354167" />
+                            <point x="0.583333" y="0.416667" />
+                            <point x="0.645833" y="0.5" />
+                            <point x="0.583333" y="0.583333" />
+                            <point x="0.5" y="0.645833" />
+                            <point x="0.354167" y="0.645833" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fade" sid="363200032148464">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540578602765875" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_time" sid="669115801380314">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\User\Desktop\Jogos Construct\Tap to move\Assets\Jogo De Tap To Move\Jogo De Tap To Move\Gráficos\sprite-font-white.png" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Splash_Screen.xml</layout>
+        <layout>Level1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Splash_Event.xml</event-sheet>
+        <event-sheet>Level1_Event.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="7">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="17">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="hurt.m4a" />
+        <file name="hurt.ogg" />
+        <file name="trilha.m4a" />
+        <file name="trilha.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
